@@ -6,7 +6,7 @@ int main()
 {
     srand(time(0));
 
-    RenderWindow app(VideoMode(400, 530), "Minesweeper!");
+    RenderWindow app(VideoMode(420, 530), "Minesweeper!");
 
     int w = 32;
     const int gridSize = 13; 
